@@ -1,0 +1,16 @@
+{
+  "interfaces": {
+    "wlan": "",
+    "eth": ""
+  },
+  "packages":[
+    "neovim",
+    "python"
+  ],
+  "aur-packages": [
+    "oh-my-zsh-git"
+  ],
+  "python-modules":[
+    "dbus-python"
+  ]
+}
