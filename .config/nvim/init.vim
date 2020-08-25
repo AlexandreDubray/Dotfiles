@@ -46,7 +46,8 @@ nmap <silent> <leader>k :wincmd k<CR>
 nmap <silent> <leader>l :wincmd l<CR>
 
 autocmd FileType javascript setlocal tabstop=2 shiftwidth=2 expandtab
-
+"autocmd FileType json syntax match Comment +\/\/.\+$+
+autocmd FileType json setlocal tabstop=2 shiftwidth=2 expandtab
 " coc.vim configuration
 " Took from the GitHub page, might not be the most adequate?
 " (Probably won't have the will to correctly set it up though)
